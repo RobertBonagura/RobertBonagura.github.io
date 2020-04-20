@@ -4,21 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quarantine Home Workout - Stay In Shape While You Social Distance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <h1>Quarantine Workout</h1>
+        <div class="navbar">
+            <a href="#title">Home</a>
+            <a href="#routine">Routine</a>
+            <div class="dropdown">
+              <button class="dropbtn">Mobility
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#cat">Cat-Cow Pose</a>
+                <a href="#child">Child Pose</a>
+                <a href="#lying">Lying Hamstring Stretch</a>
+                <a href="#pec">Pec Stretch</a>
+                <a href="#seated">Seated T-Spine Rotation</a>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Exercises
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#glute">Glute Bridges</a>
+                    <a href="#curls">Lying Leg Curls</a>
+                    <a href="#dead">Dead Bug</a>
+                    <a href="#squat">Eccentric Squats</a>
+                    <a href="#pushup">Doorway Pushups</a>
+                    <a href="#overhead">Prone Overhead Reach</a>
+                </div>
+              </div>
+          </div> 
+        <h1 id="title">Quarantine Workout</h1>
         <h4>by Bobby Bonagura</h4>
     </header>
     <article class="container">
         <section id="intro">
-            <p>I hope everyone is doing as best as they can. With gyms closed for a month now due to the Covid-19 virus, 
-                and NJ State Parks now too, it seems to be getting harder and harder to maintain an active and healthy lifestyle.
+            <p>I hope everyone is doing as best as they can given the current circumstances.
+                With gyms closed for a month now due to the Covid-19 virus, 
+                and NJ State Parks closed too, it seems to be getting harder and harder to maintain an active and healthy lifestyle.
             </p>
             <p>Good news is that with a little creativity, there is still alot you can do at home. So if you were just looking for 
                 a little push or reminder, here it is. Here is a list of Mobility and Strength exercises you can do at home with ZERO
-                pieces of equipment... well just a floor, bed, doorway and bath towel. I think you can all handle that.
+                pieces of equipment... well just a floor, bed, doorway and bath towel.
             </p>
         </section>
         <section id="routine">
@@ -28,35 +59,36 @@
                 You can do them all at once, but you are free to incorporate them throughout the course of your day as you see fit.
             </p>
             <ol>
-                <li>Cat-Cow Pose: 12 reps</li>
-                <li>Child Pose: 30 - 90 seconds</li>
-                <li>Lying Hamstring Stretch: 30 - 90 seconds</li>
-                <li>Pec Stretch: 30 - 90 seconds</li>
-                <li>Seated T-Spine Rotation: 6 reps each side </li>
+                <li><a href="#cat">Cat-Cow Pose:</a> 12 reps</li>
+                <li><a href="#child">Child Pose:</a> 30 - 90 seconds</li>
+                <li><a href="#lying">Lying Hamstring Stretch:</a> 30 - 90 seconds</li>
+                <li><a href="#pec">Pec Stretch:</a> 30 - 90 seconds</li>
+                <li><a href="#seated">Seated T-Spine Rotation:</a> 6 reps each side </li>
             </ol>
             <h3>Workout Routine</h3>
             <p>
                 The Workout Routine is a group of exercises I would reccomend doing together all at once. Everybody is going to react differently
-                to them. Start by going easy. If the next day you feel sore somewhere, let that muscle rest. Otherwise, feel free to do the exercises
-                daily. Start with doing each exercise once, and the increasing the number of sets as you deem appropriate.
+                to them.  Start by doing each exercise once, and then increase the number of sets as you see appropriate.
+                After completing 1 or 2 sets of each exercise, if the next day you feel sore somewhere, let that muscle rest. Otherwise, 
+                feel free to do these exercises as often as you like, even daily.
             </p>
             <ol>
-                <li>Glute Bridges: 12-15 reps</li>
-                <li>Lying Leg Curls: 12-15 reps</li>
-                <li>Dead Bug: 30 - 90 seconds</li>
-                <li>Eccentric Squats: 12-15 reps</li>
-                <li>Doorway Pushups: 12-15 reps</li>
-                <li>Prone Overhead Reach: 12-15 reps</li>
+                <li><a href="#glute">Glute Bridges:</a> 12-15 reps</li>
+                <li><a href="#curls">Lying Leg Curls:</a> 12-15 reps</li>
+                <li><a href="#dead">Dead Bug:</a> 30 - 90 seconds</li>
+                <li><a href="#squat">Eccentric Squats:</a> 12-15 reps</li>
+                <li><a href="#pushup">Doorway Pushups:</a> 12-15 reps</li>
+                <li><a href="#overhead">Prone Overhead Reach:</a> 12-15 reps</li>
             </ol>
             <p>Photos and a description for each of the exercises is provided below.
-                Simply tapping or clicking the name of the exercise above will redirect you to
-                the appropriate description.
+                You can use the navigation bar at the top of the page to jump to 
+                any exercise description. 
             </p>
         </section>
         <section id="mobility-exercises">
             <h2>Mobility Exercises</h2>
             <ol class="flex">
-                <li>Cat-Cow Pose</li>
+                <li id="cat">Cat-Cow Pose</li>
                 <img src="./resources/cat.jpeg" alt="Cat Cow Pose">
                 <p>For this stretch, it is all about moving your spine through as much of a full range of motion as possible.
                     Sitting around leads our backs to maintain the same position all day long.
@@ -68,10 +100,10 @@
                     Move back and forth through each position slowly, focusing on controlled breathing as you hold
                     each position for a few seconds before moving to the next one.
                 </p>
-                <li>Child Pose</li>
+                <li id="child">Child Pose</li>
                 <img src="./resources/child.jpg" alt="Child Pose">
                 <p>Here is another opportunity to get some spinal flexion, as well as some deep hip flexion in the hips</p>
-                <li>Lying Hamstring Stretch</li>
+                <li id="lying">Lying Hamstring Stretch</li>
                 <img src="./resources/ham.jpeg" alt="Lying Hamstring Stretch">
                 <p>It's everyone's favorite (said nobody ever). A Hamstring stretch. Though a band can help you pull
                     your hamstirng into a deeper stretch, it is not required if you do not have one at home.
@@ -79,12 +111,12 @@
                 <p>Simply keep both legs fully extended and lift one leg as high as you can.
                     Focus on taking deep breaths and not jerking your leg.
                 </p>
-                <li>Pec Stretch</li>
+                <li id="pec">Pec Stretch</li>
                 <img src="./resources/pecstretch.jpg" alt="Pec Stretch">
                 <p>Find yourself a doorway and lean in.
                     You can also do one side at a time if you feel a better stretch that way.
                 </p>
-                <li>Seated T-Spine Rotation</li>
+                <li id="seated">Seated T-Spine Rotation</li>
                 <img src="./resources/tspine.jpg" alt="Seated T-Spine Rotation">
                 <p>Make sure to move slowly during this one, we don't want any hard jerking or twisitng.
                 </p>
@@ -96,13 +128,13 @@
         <section id="workout-exercises">
             <h2>Workout Exercises</h2>
             <ol class="flex">
-                <li>Glute Bridges</li>
+                <li id="glute">Glute Bridges</li>
                 <img src="./resources/glute.jpg" alt="Glute Bridge">
                 <p>Start off laying flat on your back, brace your core
                     and press through your legs to lift your hips into the air.
                     Make sure to squeeze you glutes.
                 </p>
-                <li>Lying Leg Curls</li>
+                <li id="curls">Lying Leg Curls</li>
                 <img src="./resources/towelcurl.jpg" alt="Lying Leg Curl">
                 <p>This time, make sure you're own a hard floor so that your
                      towel is able to slide. You are going to perform a glute bridge like before, 
@@ -114,7 +146,7 @@
                     your hamstrings. Start off my only moving your legs forward and back a short
                     distance
                 </p>
-                <li>Dead Bug</li>
+                <li id="dead">Dead Bug</li>
                 <img src="./resources/deadbug.jpeg" alt="Dead Bug">
                 <p>
                     Now we are going to focus on some spinal stabilization.
@@ -135,7 +167,7 @@
                     From here, exhale as you lower one leg, inhale to lift it back up,
                     and then exhale as you lower the other leg. Continue in this fashion.
                 </p>
-                <li>Eccentric Squats</li>
+                <li id="squat">Eccentric Squats</li>
                 <img src="./resources/squat.jpg" alt="Squat">
                 <p>
                 We are going to use something like a chair (without wheels) or couch a in this variation to take as much 
@@ -154,13 +186,13 @@
                     Tap your seat gently, and then stand up tall, drivng through the legs and squeezing
                     your glutes. 
                 </p>
-                <li>Doorway Pushups</li>
+                <li id="pushup">Doorway Pushups</li>
                 <img src="./resources/pushup.jpg" alt="Doorway Pushups">
                 <p>Find a safe and stable doorway to do some pushups. You are going to set up nice and tall
                     in a plank position and lean forward. Lower yourself through the doorway like you would during
                     a push up and then press back to the top.
                 </p>
-                <li>Prone Overhead Reach</li>
+                <li id="overhead">Prone Overhead Reach</li>
                 <img src="./resources/overhead.jpg" alt="Prone Overhead Reach">
                 <p>
                     This is a great workout for the shoulders in the upper back and shoulders, and it is okay if
